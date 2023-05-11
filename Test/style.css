@@ -17,16 +17,39 @@ header {
     float: left;
 }  
 
+.menu {
+    width: 600px;
+    height: 50px;
+    background-color: skyblue;
+    margin-right: 50px;
+    float: left;
+}
+
 .slide {
     width: 100%;
     height: 300px;
     background-color: orange;
+    position: relative;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.slide > img {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    left: 100;
+    top: 0;
+}
+
+.slide > img:first-child {
+    left: 100;
 }
 
 .main {
     width: 100%;
     height: 200px;
-    background-coor: yellow;
+    background-color: yellow;
     display: flex;
 }
 
