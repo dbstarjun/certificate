@@ -80,7 +80,7 @@ header > div {
 }
 
 .slide > img:first-child {
-    left: 100;
+    left: 0;
 }
 
 .main {
