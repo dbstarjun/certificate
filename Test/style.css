@@ -9,7 +9,6 @@
 
 .wrapper  {
     width: 1200px;
-    height: 1200px;
     margin: 0 auto;
 }
 
@@ -35,7 +34,7 @@ header > div {
     float: right;
     margin-right: 50px;
     padding-top: 50px;
-    z-index: 99;
+    z-index: 999;
 }
 
 .main-menu {
@@ -50,7 +49,7 @@ header > div {
 }
 
 .main-menu ul li {
-    width: 100%;
+    width: 25%;
     height: 50px;
     float: left;
 }
