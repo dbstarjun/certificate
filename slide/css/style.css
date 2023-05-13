@@ -1,0 +1,14 @@
+.slide {
+    overflow: hidden;
+    position: relative;
+}
+
+.slide img {
+    position: absolute;
+    
+}
+
+
+.slide img:first-child {
+    left: 0;
+}
